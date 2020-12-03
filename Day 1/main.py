@@ -18,6 +18,7 @@ def part2():
                     print(x, " + ", y, " + ", z, " = ", x * y * z)
                     return
 
+
 if __name__ == '__main__':
     part1()
     part2()
