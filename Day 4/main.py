@@ -38,7 +38,6 @@ def part2():  # Om ändå jag kunde regex
                        2020 >= int(fields["iyr"]) >= 2010 and \
                        2030 >= int(fields["eyr"]) >= 2020 and \
                        valid_hgt and valid_hcl and valid_ecl and valid_pid:
-                        print(fields)
                         valid_count += 1
 
                 except Exception as e:
